@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.hell{
+    background: linear-gradient(#394867, #c62a88);
+}
+
+
+.nav_link{
+    float: right;
+    margin-left: 25px;
+    padding: 5vh;
+    font-size: larger;
+    gap: 12px;
+    background: transparent;
+}
+
+.logo{
+    border-radius: 50%;
+    width: auto;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.navbar{
+    background: #31326f;
+    padding: 0;
+    margin: auto;
+    font-family: sans-serif;
+    text-decoration-color: whitesmoke;
+} 
+
+.home{
+    color: whitesmoke;
+    padding: 1vh;
+    margin-right: 2vh;
+    font-family: cursive;
+    text-decoration-color: whitesmoke;
+    background: transparent;
+    border-color: whitesmoke;
+    border-radius: 15px;
+}
+
+a{
+    color: whitesmoke;
+}
+
+h2{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+
+
+/* image hover effect   */
+/* image with people */
+
+.container {
+    position: relative;
+    width: 50%;
+}
+  
+.image {
+    
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+  
+.container:hover .image {
+    opacity: 0.3;
+}
+  
+.container:hover .middle {
+    opacity: 1;
+}
+  
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+
+      /* hover end */
+
+.text1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 1000;
+    color: black;
+
+}
+
+/* what we do */
+
+.bar2{
+    position: relative;
+}
+
+
+.img_1 {
+    height: 300px;
+    width: 20%;
+    margin-left: 100px;
+}
+
+
+.img_2 {
+    height: 300px;
+    width: 20%;
+    margin-left: 600px;
+
+}
+.img_3 {
+    height: 300px;
+    width: 20%;
+    margin-left: 100px;
+
+}
+
+
+
+.text2{
+    text-align: center;
+    font-family: cursive;
+    float: right;
+    font-size: 16px;
+    font-weight: 1000;
+    color: black;
+    flex-direction: column;
+    margin-top: -550px;
+    margin-right: 20px;
+} 
+
+
+/* our mission */
+
+
+.img_6 {
+    height: 300px;
+    width: 20%;
+    margin-left: 50px;
+
+}
+
+.img_7{
+    height: 300px;
+    width: 20%;
+    margin-left: 700px;
+    
+}
+.img_8{
+    height: 300px;
+    width: 20%;
+   margin-left: 1300px;
+    
+}
+
+.text3{
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 1000;
+    color: black;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+
+#ttext2 {
+    margin-left: 700px;
+
+}
+
+#ttext3 {
+    margin-left: 1300px;
+}
+
+
+/* pandemics */
+
+
+.pandemics{
+    margin-left: 230px;
+}
+
+.food_pandemic{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+
+.button{
+    font-family: cursive;
+    font-size: 50px;
+    margin: 6px;
+    padding: 3px;
+    background: transparent;
+    cursor: pointer;
+    border: black;
+}
+
+
+/* footer  social links */
+
+footer{
+    background-color: #6a097d;
+}
+
+.facebook{
+    margin-left: 650px;
+}
+.instagram{
+    margin-left: 50px;
+}
+.twitter{
+    margin-left: 50px;
+}
+.share{
+    margin-left: 50px;
+}
